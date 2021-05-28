@@ -32,7 +32,7 @@ img {
   height: 100vh;
   padding: 1em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 3fr 3fr;
   gap: 2em;
 }
@@ -72,3 +72,7 @@ img {
     padding: 0;
   }
 }
+
+/* Auto fit will fit the columns you've defined into the available space. */
+
+/* Auto fill will keep adding in new columns, even if they are empty. */
